@@ -1,0 +1,235 @@
+body {
+  background: #0d0221;
+}
+body #container {
+  margin: auto;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  max-width: 300px;
+  max-height: 300px;
+  transform-origin: bottom;
+}
+body .planet {
+  z-index: 1;
+  margin: auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  position: absolute;
+  background: #9db4c0;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  overflow: hidden;
+}
+body .planet .bigCrater {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 130px;
+  height: 130px;
+  border-radius: 150px;
+  top: 100px;
+  right: 125px;
+}
+body .planet .bigCrater2 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 130px;
+  height: 130px;
+  border-radius: 150px;
+  top: 0px;
+  right: -55px;
+}
+body .planet .lilCrater {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+  top: 100px;
+  right: 80px;
+}
+body .planet .lilCrater2 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+  top: 60px;
+  right: 125px;
+}
+body .planet .lilCrater3 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+  top: 200px;
+  right: 30px;
+}
+body .planet .lilCrater4 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 30px;
+  height: 30px;
+  border-radius: 150px;
+  top: 0px;
+  right: 100px;
+}
+body .planet .medCrater {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  top: 40px;
+  right: 100px;
+}
+body .planet .medCrater2 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  bottom: 30px;
+  right: 60px;
+}
+body .planet .medCrater3 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  top: 20px;
+  left: 0px;
+}
+body .planet .medCrater4 {
+  z-index: 1;
+  position: absolute;
+  background: #5c6b73;
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  bottom: 20px;
+  left: 0px;
+}
+body .cloud {
+  z-index: 10;
+  position: relative;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  bottom: -75px;
+  left: 30px;
+}
+body .cloud .puff {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 90px;
+  height: 90px;
+  bottom: 10px;
+  right: 0px;
+}
+body .cloud .puff2 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 120px;
+  height: 120px;
+  bottom: 10px;
+  right: 40px;
+}
+body .cloud .puff3 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 100px;
+  height: 100px;
+  bottom: 10px;
+  right: 100px;
+}
+body .cloud .puff4 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 90px;
+  height: 90px;
+  bottom: 10px;
+  right: 120px;
+}
+body .cloud .puff5 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 80px;
+  height: 80px;
+  bottom: 50px;
+  right: 20px;
+}
+body .cloud2 {
+  z-index: 9;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  bottom: 300px;
+  right: 300px;
+}
+body .cloud2 .floof {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 90px;
+  height: 90px;
+  top: 0px;
+  left: 30px;
+}
+body .cloud2 .floof2 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 30px;
+}
+body .cloud2 .floof3 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 90px;
+  height: 90px;
+  top: 10px;
+  left: 80px;
+}
+body .cloud2 .floof4 {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  border-radius: 150px;
+  width: 80px;
+  height: 80px;
+  top: 30px;
+  left: 0px;
+}
