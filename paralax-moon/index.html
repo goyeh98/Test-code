@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="" style="z-index: 11; position: absolute; width: 80%; text-align: center; margin-top: 400px">
-      <h1 style="">TESTER Ariana</h1>
+      <h1>TESTER Ariana</h1>
     </div>
     <div id="container">
       <div class="layer planet" data-depth="1">
@@ -42,6 +42,29 @@
         <div class="floof4"></div>
       </div> -->
     </div>
+    <div style="-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+
+    <div id="container1">
+      <div class="layer fire-wrapper" data-depth="2">
+        <div class="rocket fire">
+          <div class="rocket-body">
+            <div class="body"></div>
+            <div class="fin fin-left"></div>
+            <div class="fin fin-right"></div>
+            <div class="window"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div>
+      <div class="fire-wrapper">
+        <img class="fire" src="https://www.stivaliserna.com/assets/rocket/fire.svg" />
+      </div>
+    </div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
     <script>
@@ -51,6 +74,14 @@
         invertY: true,
         limitX: 26,
         limitY: 5,
+      });
+
+      const parent1 = document.getElementById('container1');
+      const parallax1 = new Parallax(parent1, {
+        invertX: true,
+        invertY: true,
+        limitX: 26,
+        limitY: 26,
       });
     </script>
   </body>
