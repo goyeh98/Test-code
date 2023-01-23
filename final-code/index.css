@@ -541,11 +541,12 @@ body .planet .medCrater4 {
 .sosmed {
   display: inline-block;
   position: absolute;
+  margin-top: 40%;
 }
 
 /* Icons */
 
-.sosmed p {
+.sosmed a {
   color: #fff;
   background: #f806cc;
   border-radius: 4px;
@@ -563,13 +564,13 @@ body .planet .medCrater4 {
   transition: all 0.5s;
 }
 
-.sosmed p:hover {
+.sosmed a:hover {
   background: #ef92a3;
 }
 
 /* pop-up text */
 
-.sosmed p span {
+.sosmed a span {
   color: #666;
   position: absolute;
   font-family: sans-serif;
@@ -591,7 +592,7 @@ body .planet .medCrater4 {
 
 /* pop-up text arrow */
 
-.sosmed p span:before {
+.sosmed a span:before {
   content: '';
   width: 0;
   height: 0;
@@ -605,10 +606,75 @@ body .planet .medCrater4 {
 
 /* text pops up when icon is in hover state */
 
-.sosmed p:hover span {
+.sosmed a:hover span {
   bottom: 50px;
   visibility: visible;
   opacity: 1;
 }
 
-/* font awesome icons */
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .container,
+  .container-sm {
+    max-width: inherit;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 60px;
+  }
+
+  .custom-h2 {
+    font-size: 9px;
+  }
+  .custom-h2 br {
+    display: none;
+  }
+
+  .image-custom {
+    width: 375px;
+    height: 400px;
+    border-radius: 5%;
+  }
+
+  .link-custom {
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    top: 40%;
+  }
+  .page.vertical {
+    display: flex;
+    bottom: -45vh;
+    align-items: end;
+    left: 41%;
+  }
+
+  [data-fs-scroll] .page.vertical .active {
+    height: 60px;
+    width: 14px;
+  }
+
+  [data-fs-scroll] .page li {
+    height: 30px;
+    width: 14px;
+  }
+
+  #container {
+    position: absolute;
+    top: -150px;
+    right: -150px;
+  }
+
+  .rocket {
+    position: absolute;
+    width: 80px;
+    left: calc(80%);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+}
