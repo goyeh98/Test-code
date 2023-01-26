@@ -57,6 +57,11 @@
       .column a:hover {
         background-color: #ddd;
       }
+
+      .img-custom {
+        width: 100%;
+        height: 100px;
+      }
     </style>
   </head>
   <body>
@@ -81,19 +86,20 @@
           <div class="col-3">logo</div>
           <div class="col-9 d-flex justify-content-around">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Link</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="menu-item dropdown1">
-                    <a class="menu-link" href="#" role="button"> Dropdown </a>
+                  <li class="nav-item dropdown1">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Dropdown </a>
                     <div class="dropdown-content">
                       <div class="header">
                         <h2>Mega Menu</h2>
@@ -117,13 +123,13 @@
           <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="hal1.jpg" class="d-block w-100" alt="..." />
+                <img src="hal1.jpg" class="d-block w-100 img-custom" alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="hal2.jpg" class="d-block w-100" alt="..." />
+                <img src="hal2.jpg" class="d-block w-100 img-custom" alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="hal3.jpg" class="d-block w-100" alt="..." />
+                <img src="hal3.jpg" class="d-block w-100 img-custom" alt="..." />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="prev">
@@ -193,3 +199,15 @@
     </script>
   </body>
 </html>
+
+<div class="header">
+  <h2>Mega Menu</h2>
+</div>
+<div class="row">
+  <div class="column">
+    <h3>Category 1</h3>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>

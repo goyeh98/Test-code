@@ -1,0 +1,82 @@
+@font-face {
+  font-family: GOTHIC;
+  src: url(/resources/assets/fonts/GOTHIC.TTF);
+}
+@font-face {
+  font-family: GOTHICB;
+  src: url(/resources/assets/fonts/GOTHICB.TTF);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* CUSTOMER */
+.card-custom {
+  border: none;
+}
+
+/* WA dan Email */
+#wa-fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  background-color: #25d366;
+  color: white;
+  cursor: pointer;
+  border-radius: 35px;
+  height: 55px;
+  width: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+#chat-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  background-color: #444444;
+  color: white;
+  cursor: pointer;
+  border-radius: 35px;
+  height: 55px;
+  width: 55px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+#wa-fixed:hover,
+#chat-fixed:hover {
+  opacity: 0.75;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* FOOTER */
+footer {
+  background-color: dimgrey;
+  color: aliceblue;
+}
