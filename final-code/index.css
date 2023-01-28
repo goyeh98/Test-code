@@ -22,6 +22,10 @@ body {
   color: #fff;
 }
 
+#logo-hide {
+  display: none;
+}
+
 /* .section h1 {
   position: absolute;
   top: 50%;
@@ -54,6 +58,52 @@ body {
   height: 100vh;
   background-color: antiquewhite;
 } */
+
+.hr-custom1 {
+  border: solid 6px #f806cc;
+  width: 20%;
+}
+
+.hr-custom2 {
+  border: solid 6px #f806cc;
+  width: 20%;
+  margin-left: 10%;
+}
+
+/* H1 */
+
+#h-cus1 {
+  font-size: 6em;
+}
+
+#h-cus2 {
+  font-size: 6em;
+  position: absolute;
+  z-index: 100;
+  letter-spacing: 10px;
+}
+
+#h-cus3 {
+  font-size: 6em;
+  position: absolute;
+  z-index: 100;
+  letter-spacing: 10px;
+}
+
+#h-cus4 {
+  font-size: 6em;
+  position: absolute;
+  z-index: 100;
+  letter-spacing: 10px;
+}
+
+#kontak-custom {
+  text-decoration: none;
+  margin-left: 2%;
+  margin-top: 5%;
+  display: inline-block;
+  color: aliceblue;
+}
 
 #container {
   position: absolute;
@@ -163,7 +213,7 @@ body .planet .medCrater4 {
 
 .rocket {
   position: absolute;
-  top: vh;
+  top: -15vh;
   width: 80px;
   left: calc(50% - 60px);
 }
@@ -541,7 +591,8 @@ body .planet .medCrater4 {
 .sosmed {
   display: inline-block;
   position: absolute;
-  margin-top: 40%;
+  margin-top: 7%;
+  margin-left: -13.4%;
 }
 
 /* Icons */
@@ -615,6 +666,9 @@ body .planet .medCrater4 {
 /* Responsive */
 
 @media only screen and (max-width: 992px) {
+  #logo-hide {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -623,7 +677,7 @@ body .planet .medCrater4 {
     max-width: inherit;
     font-size: 15px;
     margin-left: 15px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .custom-h2 {
@@ -639,13 +693,6 @@ body .planet .medCrater4 {
     border-radius: 5%;
   }
 
-  .link-custom {
-    position: absolute;
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    top: 40%;
-  }
   .page.vertical {
     display: flex;
     bottom: -45vh;
@@ -661,6 +708,7 @@ body .planet .medCrater4 {
   [data-fs-scroll] .page li {
     height: 30px;
     width: 14px;
+    margin-right: 10px;
   }
 
   #container {
@@ -674,7 +722,127 @@ body .planet .medCrater4 {
     width: 80px;
     left: calc(80%);
   }
+  #logo-hide {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 576px) {
+  #custom-logo {
+    display: none;
+  }
+
+  #logo-hide {
+    display: inherit;
+  }
+
+  #h-cus1 {
+    font-size: 40px;
+    margin-top: 65%;
+  }
+
+  #h2-cus1 {
+    font-size: 20px;
+  }
+
+  .rocket {
+    position: absolute;
+    width: 80px;
+    left: calc(65%);
+    bottom: calc(0%);
+  }
+
+  #cus-m1 {
+    position: absolute;
+    top: -35%;
+  }
+
+  #img1-cus-m1 {
+    width: 335px;
+    margin-left: 5%;
+  }
+
+  #h-cus2 {
+    font-size: 40px;
+  }
+
+  #h-cus22 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 10%;
+  }
+
+  #h-cus22 a {
+    margin-left: 82%;
+  }
+
+  #cus-m2 {
+    position: absolute;
+    top: -35%;
+  }
+
+  #img2-cus-m2 {
+    width: 335px;
+    margin-left: 5%;
+  }
+
+  #h-cus3 {
+    font-size: 40px;
+  }
+
+  #h2-cus33 {
+    font-size: 15px;
+  }
+
+  #h-cus33 {
+    z-index: 1;
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  #h-cus33 button {
+    position: absolute;
+    left: 36%;
+    top: 32%;
+  }
+
+  #cus-m3 {
+    position: absolute;
+    top: -35%;
+  }
+
+  #img3-cus-m3 {
+    width: 335px;
+    margin-left: 5%;
+  }
+
+  #h-cus4 {
+    font-size: 40px;
+  }
+
+  #h-cus44 {
+    z-index: 1;
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  #h-cus44 hr {
+    display: none;
+  }
+
+  #h-cus44 a {
+    margin-top: 90%;
+  }
+
+  #h-cus44 .sosmed {
+    margin-top: 20%;
+    margin-left: -39%;
+  }
+
+  .page.vertical {
+    display: flex;
+    bottom: -50vh;
+    align-items: end;
+    left: 33%;
+  }
 }
