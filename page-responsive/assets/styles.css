@@ -1,0 +1,761 @@
+@font-face
+{
+	font-family:GOTHIC;
+	src: url(/resources/assets/fonts/GOTHIC.TTF);
+}
+@font-face
+{
+	font-family:GOTHICB;
+	src: url(/resources/assets/fonts/GOTHICB.TTF);
+}
+@font-face
+{
+	font-family:AsimoneBrush;
+	src: url(/resources/assets/fonts/AsimoneBrush.otf);
+}
+
+strong {
+	font-family: GOTHICB;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+.breadcrumb{
+    background-color: unset;
+    padding-left: 0px;
+}
+.breadcrumb-item{
+    font-family: GOTHIC;
+    font-size: 14px;
+    color: #FADA80 !important;
+    font-weight: 600;
+}
+.active-menu{
+    /* border-bottom: 2px solid black; */
+    color: grey ;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+/* Floating Wa & Chat */
+#wa-fixed {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border:none;
+    background-color: #25d366;
+    color: white;
+    cursor: pointer;
+    border-radius: 35px;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.25);
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
+#chat-fixed{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border:none;
+    background-color: #444444;
+    color: white;
+    cursor: pointer;
+    border-radius: 35px;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.25);
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
+#wa-fixed:hover , #chat-fixed:hover {
+    opacity: .75;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
+/* Floating Wa & Chat */
+
+/* =================================== Header =================================== */
+#navbar-atas{background-color: #a7a5ac;}
+a.header-menu-atas{
+    font-family: GOTHIC;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+#header-first{
+    background-color: #fff;
+    padding-top:0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #1a1a1a;
+}
+.logo-header-img{width: 120px;}
+a.header-menu{
+    font-family: GOTHIC;
+    font-size: 13px !important;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    /* padding-top:20px;
+    padding-bottom: 20px; */
+}
+a.header-menu-2{
+    font-family: GOTHIC;
+    font-size: 13px !important;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding-left: 40px;
+}
+/*.dropdown-menu , .dropdown-item{background-color: #fff !important;}*/
+.icon-cart-navbar{font-size: 30px !important;}
+.cari-text{
+    width: 100%;
+    height: 45px;
+    font-family: GOTHIC;
+    font-size: 16px;
+    padding-left: 10px;
+    color:#1a1a1a;
+}
+/* =================================== Header =================================== */
+
+/* =================================== Body =================================== */
+#section-home-news , #section-home-product , #section-home-aboutus, #section-home-joinus{
+    height: auto;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.col-lg-head-carousel{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.img-head-carousel{padding:0px;}
+
+/* Owl Carousel Sec #1 */
+.main-content {
+    position: relative;
+	margin-top: 10px;
+}
+.main-content .owl-theme .custom-nav {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+.main-content .owl-theme .custom-nav .owl-prev, .main-content .owl-theme .custom-nav .owl-next {
+    position: absolute;
+    height: 100px;
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+}
+.main-content .owl-theme .custom-nav .owl-prev i, .main-content .owl-theme .custom-nav .owl-next i {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+.main-content .owl-theme .custom-nav .owl-prev {
+    left: 3%;
+}
+.main-content .owl-theme .custom-nav .owl-next {
+    right: 3%;
+}
+.fa-angle-left ,  .fa-angle-right{
+    font-size: 50px !important;
+    color: #62676C !important;
+}
+/* Owl Carousel Sec #1  */
+/* =================================== Body =================================== */
+
+/* Section About Us */
+.card{
+    padding:10px;
+    margin-bottom: 10px;
+}
+.icon-about-us{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    color: #FADA80;
+}
+.title-head-about-us{
+    font-family: GOTHIC;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.desc-home-about-us{
+    font-family: GOTHIC;
+    font-size: 13px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+.link-selengkapnya{
+    font-family: GOTHIC;
+    font-size: 14px;
+    font-weight: normal;
+    color:#FADA80;
+}
+.card-home-about-us{height: 156px;}
+
+/* Single Page About Us */
+.title-page{
+    font-family: GOTHIC;
+    margin-top: 10px;
+    font-size: 32px;
+}
+.deskripsi{
+    font-family: GOTHIC;
+    text-align: justify;
+}
+.img-deskripsi{
+    width: 100%;
+    height: auto;
+}
+/* Single Page About Us */
+
+/* =================== Css Baru - 20201103*/
+/* Sec #3 */
+#section-home-aboutus{background-color: #fbfdfd; margin-bottom: 25px;}
+.bdr-home-sec3{
+    height: 250px;
+    background-color: #F7F9FA;
+}
+.pad-0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.title-home-sec3{
+    font-family: century-gothic, sans-serif;
+    font-size: 22px;
+    margin-top:30px
+}
+.caption-home-sec3{
+    font-family: GOTHIC;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.desc-home-sec3{
+    font-family: GOTHIC;
+    font-size: 14px;
+}
+.img-home-sec3{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.bg-tambahan{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section-hbhwj{
+    background-color: #fbfdfd;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.title-hbhwj{
+    font-family: century-gothic, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.img-home-hbhwj{
+    width: 100%;
+/*    height: 450px;*/
+    object-fit: cover;
+}
+.title-hbhwj-2{
+    font-family: GOTHICB;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+#section-fp{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bdr-home-fp{
+    margin-right: 10px;
+    border:1px solid #eaeaea;
+}
+.title-fp{
+    font-family: GOTHIC;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.img-home-fp{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.title-home-fp{
+    font-family: GOTHIC;
+    font-size: 14px;
+    font-weight: normal;
+    color: #1a1a1a;
+}
+.caption-home-fp{
+    font-family: GOTHICB;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+.svgclass , .svgclass1{
+    fill: #f7f9fa;
+    z-index: 100;
+    position: absolute;
+    height: 180px;
+    left: 24%;
+}
+.svgclass2{
+    fill: #f7f9fa;
+    z-index: 100;
+    position: absolute;
+    height: 80px;
+    left: 40%;
+    top: -60px;
+} 
+/* Sec #3 */
+/* =================== Css Baru - 20201103*/
+
+/* Section Prod */
+#section-home-product{background-color: #F7F9FA;}
+.img-home-prod{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.card-home-prod{height: 160px;}
+.title-head-product{
+    font-family: GOTHIC;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    color: #fff;
+}
+.preview {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media screen and (max-width: 996px) {
+      .preview {
+        margin-bottom: 20px; } }
+  
+  .preview-pic {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  
+  .preview-thumbnail.nav-tabs {
+    border: none;
+    margin-top: 15px; }
+    .preview-thumbnail.nav-tabs li {
+      width: 14%;
+      margin-right: 2.5%; }
+      .preview-thumbnail.nav-tabs li img {
+        max-width: 100%;
+        display: block; }
+      .preview-thumbnail.nav-tabs li a {
+        padding: 0;
+        margin: 0; }
+      .preview-thumbnail.nav-tabs li:last-of-type {
+        margin-right: 0; }
+  
+  .tab-content {
+    overflow: hidden; }
+    .tab-content img {
+      width: 100%;
+      -webkit-animation-name: opacity;
+              animation-name: opacity;
+      -webkit-animation-duration: .3s;
+              animation-duration: .3s; }
+/* Section Prod */
+
+/* Section News */
+.img-home-news{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.title-head-news{
+    font-family: GOTHIC;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+/* Section News */
+
+/* Section Join Us */
+#section-home-joinus{background-color: #444444;}
+.img-join-us{width: 120px;}
+.bdr-join-us{
+    border: 1px solid #fff;
+    font-family: GOTHIC;
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+}
+.link-joinus{
+    color:#fff;
+}
+/* Section Join us */
+
+/* Section Single Page Product */
+.section-single-prod{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.title-cat{
+    font-family: GOTHIC;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    color: #62676C;
+}
+.desc-cat{
+    font-family: GOTHIC;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+.desc-cat-2{
+    font-family: GOTHIC;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-left: 30px;
+}
+.btn-cat-full{
+    border-bottom: 1px solid #1a1a1a;
+}
+.img-single-prod{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.cat-single-prod{
+    font-family: GOTHIC;
+    font-weight: 400;
+    color: #4E4E4E;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title-single-prod{
+    font-family: GOTHIC;
+    font-weight: 600 ;
+    color: #1a1a1a;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-single-prod-big{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.head-single-prod{
+    font-family: GOTHIC;
+    font-weight: 500;
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.price-single-prod {
+    font-family: GOTHIC;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.desc-single-prod {
+    font-family: GOTHIC;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000;
+    font-size: 14px;
+    list-style: none;
+}
+.card-header {
+    background: transparent;
+    padding: 10px 0 10px 0;
+}
+.card-product {
+    border-left: unset;
+    border-right: unset;
+    border-top: unset;
+    border-bottom: 1px solid #ddd;
+}
+.head-desc-prod {
+    font-family: GOTHIC;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #62676C;
+    font-size: 15px;
+}
+.head-single-prod-rel {
+    font-family: GOTHIC;
+    font-weight:500 ;
+    letter-spacing: 0.8px;
+    color: #000 ;
+    font-size: 26px;
+    text-align: left;
+    padding-top: 30px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+}
+/* Section Single Page Product */
+
+.head-oppor{
+    font-family: GOTHIC;
+    font-weight:500 ;
+    letter-spacing: 0.8px;
+    color: #000 ;
+    font-size: 26px;
+    text-align: left;
+    padding-top: 30px;
+}
+.desc-oppor{
+    font-family: GOTHIC;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000;
+    font-size: 14px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.main-konten{
+    margin-bottom: 20px;
+}
+.warp{
+	margin-bottom: 20px;
+}
+
+.box {
+  transition: box-shadow .3s;
+  
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+/* Opportunity */
+
+.img-oppor{
+	width: 100%;
+	height: auto;
+}
+
+
+/* Opportunity */
+/* ================== Sec Single Contact Us ================== */
+.head-cu{
+    font-family: GOTHIC;
+    font-size: 40px;
+    padding-top:5px !important;
+    font-weight: 600;
+}
+.desc-mini-cu{
+    font-family: GOTHIC;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    width:70%;
+}
+.title-form-cu{
+    font-family: GOTHIC;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+}
+.form-cu{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border:1px solid #000;
+    margin-bottom: 10px;
+    font-family: GOTHIC;
+    font-size: 15px;
+    color:#0064bf;
+    padding:5px;
+}
+.form-textarea-cu{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border:1px solid #000;
+    margin-bottom: 10px;
+    font-family: GOTHIC;
+    font-size: 15px;
+    color:#0064bf;
+    padding:5px;
+}
+.btn-form-cu{
+    border:1px solid #000;
+    border-radius: 5px;
+    height: 45px;
+    font-family: GOTHIC;
+    font-size: 14px;
+    background-color: #fff;
+    width: 150px;
+}
+.title-mini-cu{
+    font-family: GOTHIC;
+    font-size: 15px;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top:15px;
+}
+.desc-mini-cu-right{
+    font-family: GOTHIC;
+    font-size: 13px;
+    color:#000;
+    font-weight: normal;
+}
+a.color-href-cu{color:#000;}
+.fa-cu{
+    color:#000;
+    font-size: 13px;
+}
+.bdr-left-cu{border-left: 1px solid #000;}
+/* ================== Sec Single Contact Us ================== */
+
+/*  */
+.title-dnr{
+    font-family: GOTHICB;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.card-dnr{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.card-header-dnr{background-color: #ccc;}
+.top-loc{
+    font-family: GOTHIC;
+    color : #000;
+    font-size: 14px;
+}
+.top-loc:hover{color: #000}
+.nama-dnr , .name-insta , .area-dnr{
+    font-family: GOTHIC;
+    color : #000;
+    font-size: 14px;
+}
+/* =================================== Footer =================================== */
+.footer-basic{
+    background-color: #62676C;
+    padding-bottom: 20px;
+}
+.head-footer{
+    font-family: GOTHIC;
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.head-footer a{
+    color: white;
+}
+.menu-footer{
+    font-family: GOTHIC;
+    color:#fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: 0.8px;
+    padding-left: 0px !important;
+    padding-bottom: 8px !important;
+}
+.icon-connect-footer{color: #fff;}
+p.copyright{
+    font-family: GOTHIC;
+    color:#fff !important;
+    font-size: 12px !important;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-top:25px !important;
+}
+/* =================================== Footer =================================== */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+    .svgclass1{
+        height: 155px;
+    }
+}
+
+/* SM */
+@media screen and (min-width: 576px) and (max-width: 992px) { 
+    .img-join-us{margin-bottom: 20px;}
+    .head-footer{margin-top: 20px;}
+    .icon-xs-search{font-size: 30px !important;}
+    .cari-text{margin-bottom: 10px;}
+    .select-cat{
+        height: 40px;
+        margin: 15px;
+    }
+    .bdr-home-sec3,.img-home-hbhwj{height: auto;}
+    .img-home-fp{height: auto;}
+}
+/* SM */
+
+/* XS */
+@media only screen and (max-width:575px) {
+    .img-join-us{margin-bottom: 20px;}
+    .head-footer{margin-top: 20px;}
+    .icon-xs-search{font-size: 30px !important;}
+    .cari-text{margin-bottom: 10px;}
+    .select-cat{
+        height: 40px;
+        margin: 15px;
+    }
+    .bdr-home-sec3,.img-home-hbhwj{height: auto;}
+    .img-home-fp{height: auto;}
+}
+/* XS */
