@@ -1,0 +1,46 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.dropdown-menu{
+	left: unset;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  
+}
+.bg-company-teal{
+	background: #45a081;
+	color: white;
+}
+
+/* .search{
+	margin-right: 40px;
+
+}
+
+.search-query{
+	padding-left: 20px;
+}
+.search-query-btn{
+	padding-right: 3rem;
+} */
+
+.navbar .dropdown{
+	position: static;
+}
+
+/* .navbar .mega-menu {
+  width:80%;
+} */
+
+#test-dropmenu{
+	margin-top: auto;
+}
