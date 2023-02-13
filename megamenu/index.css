@@ -1,0 +1,153 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+/* NAVBAR RESPONSIVE MEGA MENU */
+nav {
+  transition: ease-out 500ms;
+}
+
+.nav-link,
+.dropdown-item {
+  font-size: 15px;
+  font-weight: 500;
+}
+p {
+  margin: 0;
+}
+
+.dropdown-menu {
+  background-color: #fba792;
+}
+.dropdown-item {
+  color: #fff;
+}
+.drop-background {
+  background-color: #fba792;
+}
+
+.secured {
+  width: 9%;
+  object-fit: contain;
+}
+
+.footer-content {
+  height: 120px;
+}
+
+#footer p {
+  font-size: 12px;
+}
+*/ a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.vl {
+  border-left: 2px solid white;
+  margin: auto 0;
+  height: 23px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: white;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fba792;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+/* NAVBAR YOMARI */
+
+.active1:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+#myDrop {
+  height: 275px;
+}
+
+.dropdown-item2 {
+  color: #fff;
+}
+
+/* BATAS NAVBAR YOMARI */
+
+/* MAX-WIDTH RESPONSIVE */
+
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 450px) {
+}
+
+.register {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.navbar-custom {
+  background-color: #fba792;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+#footer ul {
+  list-style: none; /* Remove default bullets */
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (min-width: 992px) {
+  #navbar .active {
+    border-bottom: 2px solid #fff;
+  }
+
+  .nav-link {
+    margin: 0 5px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-mobile {
+    background-color: #fba792;
+  }
+
+  .navbar-drop {
+    background-color: #fba792;
+  }
+
+  .dropdown-menu {
+    border: 1px solid #fff;
+  }
+
+  #myDrop {
+    height: auto !important;
+  }
+}
+
+/* BATAS MAX-WIDTH RESPONSIVE*/
+
+/* BATAS NAVBAR RESPONSIVE MEGA MENU */
