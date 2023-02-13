@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      form {
+        background-color: lightgray;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input[type="text"],
+      textarea {
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+
+      input[type="submit"] {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid green;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <input type="text" placeholder="Name" id="name" required />
+        <input type="text" placeholder="Phone Number" id="phone" required />
+        <textarea
+          placeholder="Message"
+          id="message"
+          rows="5"
+          required></textarea>
+        <input type="submit" value="Send" onclick="sendWhatsApp()" />
+      </form>
+    </div>
+
+    <script>
+      function sendWhatsApp() {
+        // Mendapatkan input dari form
+        var name = document.getElementById("name").value
+        var phone = document.getElementById("phone").value
+        var message = document.getElementById("message").value
+
+        // Membuat URL untuk mengirim pesan WhatsApp
+        var link =
+          "https://api.whatsapp.com/send?phone=6281995165939&text=" +
+          encodeURI(
+            "Name: " +
+              name +
+              "%0D%0A" +
+              "Phone Number: " +
+              phone +
+              "%0D%0A" +
+              "Message: " +
+              message
+          )
+
+        // Membuka link
+        window.open(link, "_blank")
+      }
+    </script>
+  </body>
+</html>
