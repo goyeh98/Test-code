@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input {
+                width: 30px;
+                text-align: center;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="">
+            <button class="btnn1">-</button>
+            <input
+                type="text"
+                class="counter"
+                value="0"
+                style="border-bottom: 1px solid #e4e4e4"
+            />
+            <button class="btnn2">+</button>
+        </div>
+
+        <script>
+            const counter = document.querySelector('.counter');
+            const decrementBtn = document.querySelector('.btnn1');
+            const incrementBtn = document.querySelector('.btnn2');
+
+            let count = 0;
+
+            decrementBtn.addEventListener('click', () => {
+                count--;
+                counter.value = count;
+            });
+
+            incrementBtn.addEventListener('click', () => {
+                count++;
+                counter.value = count;
+            });
+
+            counter.addEventListener('change', () => {
+                const val = parseInt(counter.value);
+                if (!isNaN(val)) {
+                    count = val;
+                }
+                counter.value = count;
+            });
+            counter.addEventListener('click', () => {
+                count = 0;
+                counter.textContent = count;
+                counterInput.value = count;
+            });
+        </script>
+    </body>
+</html>
